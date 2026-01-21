@@ -35,8 +35,7 @@ This project includes a **mobile-friendly hamburger menu**, smooth animations, a
 👨‍💻 Author
 Suraj Kumar
 Frontend Developer
-GitHub: https://github.com/surajkumar9113
-Portfolio: https://surajkumar9113.github.io
+GitHub:   https://github.com/surajkumar9113
 
 📄 License
 This project is free to use for learning and personal projects.
