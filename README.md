@@ -30,7 +30,7 @@ This project includes a **mobile-friendly hamburger menu**, smooth animations, a
 ## 🌍 Live Demo
 
 👉 **Live Website:**  
-(Add GitHub Pages link here after deploy)
+(https://surajkumar9113.github.io/Responsive-Web-Page/)
 
 👨‍💻 Author
 Suraj Kumar
