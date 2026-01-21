@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Service Website</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">Enquiry</a></li>
+                <li><a href="#">My Order</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- CONTENT -->
+<div class="row">
+
+    <div class="col">
+        <h1>Our Services</h1>
+        <p>
+            We provide reliable and high-quality services across North India,
+            covering a wide area with fast support and trusted solutions.
+        </p>
+        <button type="button">Explore</button>
+    </div>
+
+    <div class="col">
+
+        <div class="card card1">
+            <h5>Premium Products</h5>
+            <p>
+                Discover high-quality and premium products designed to deliver
+                excellent performance and long-term value.
+            </p>
+        </div>
+
+        <div class="card card2">
+            <h5>24×7 Customer Support</h5>
+            <p>
+                Our dedicated customer support team is available 24/7
+                to assist you with any questions or issues.
+            </p>
+        </div>
+
+        <div class="card card3">
+            <h5>Order Tracking</h5>
+            <p>
+                Track your orders in real time and stay updated on
+                delivery status from dispatch to doorstep.
+            </p>
+        </div>
+
+        <div class="card card4">
+            <h5>Online Store</h5>
+            <p>
+                Browse and purchase from a wide range of products
+                easily through our secure online store.
+            </p>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- JS -->
+<script>
+    const menuToggle = document.getElementById("menuToggle");
+    const navMenu = document.getElementById("navMenu");
+
+    menuToggle.addEventListener("click", (e) => {
+        e.stopPropagation();
+        menuToggle.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    });
+
+    document.addEventListener("click", (e) => {
+        if (!menuToggle.contains(e.target) && !navMenu.contains(e.target)) {
+            menuToggle.classList.remove("active");
+            navMenu.classList.remove("active");
+        }
+    });
+</script>
+
+</body>
+</html>
