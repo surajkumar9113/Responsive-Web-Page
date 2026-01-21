@@ -1,4 +1,4 @@
-# 🌐 Responsive Web Page with Hamburger Menu
+# 🌐 Responsive Web Page
 
 A modern and responsive web page built using **HTML, CSS, and JavaScript**.  
 This project includes a **mobile-friendly hamburger menu**, smooth animations, and a clean UI design.
